@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "parcel:build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: parcel:build",
+			"detail": "parcel build src/index.html --public-url ./ --out-dir dist --no-source-maps --no-cache"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+@use "sass:color";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sanchez&family=Zhi+Mang+Xing&display=swap');
+
+/* ------------------------------------ *\
+  #GENERAL VARIABLES
+\ *------------------------------------ */
+
+$title-home: 'Zhi Mang Xing', cursive;
+$header: 'Roboto', sans-serif;
+$text: 'Sanchez', serif;
+
+$main-color: #333;
+$secondary-color: #ccc;
+$yellow: #fff952;
+
+/* ------------------------------------ *\
+  #MODIFYING BOOTSTRAP
+\ *------------------------------------ */
+
+$theme-colors: (
+  'primary': $yellow,
+);
+
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+  text-align: center;
+}
